@@ -1,0 +1,159 @@
+
+h1{
+    font-family: "Adobe Garamond Pro";
+    font-size: 80px;
+}
+p, h2{
+    font-family: "Helvetica";
+    position: absolute;
+    left:170px;
+}
+.pitt{
+    width:155px;
+    position:absolute;
+    left:800px;
+    top:50px;
+}
+.jolie{
+    width:170px;
+position: absolute;
+    top:50px;
+}
+.and{
+    color:red;
+    position:absolute;
+    top:-20px;
+    left:310px;
+}
+.mr{
+    position:absolute;
+    top:-20px;
+    left:180px;
+}
+.title {
+    position:absolute;
+    top:-20px;
+    left:390px;
+}
+.smith{
+    position: absolute;
+    top:-20px;
+    left:555px;
+}
+.date{
+    position: absolute;
+    top:140px;
+    left:170px;
+}
+.author{
+    position: absolute;
+    top:185px;
+}
+.paragraph-1{
+    width:600px;
+    position:absolute;
+    top:220px;
+}
+.spoiler{
+    width:600px;
+    position: absolute;
+    top:320px;
+}
+.header-1 {
+    position: absolute;
+    top:370px;
+}
+.paragraph-2{
+    width:600px;
+    top:410px;
+}
+.header-2{
+    top:900px;
+}
+.paragraph-3{
+    width:600px;
+    top:970px;
+}
+.image{
+    z-index: 0;
+}
+.header-3{
+    z-index: 1;
+    top:1550px;
+}
+.conclusion{
+    width:600px;
+    top:1600px;
+}
+#footer{
+    width:600px;
+    top:1770px;
+ }
+@media only screen and (max-width: 900px){
+.and, .title{
+    top:50px;
+}
+    .mr{
+        left:320px;
+    }
+    .and{
+        left:390px;
+    }
+    .title{
+        left:480px;
+    }
+    .smith{
+    font-size:125px;
+    top:100px;
+        left:320px;
+    }
+
+    .date{
+        position: absolute;
+        top:340px;
+        left:170px;
+    }
+    .author{
+        position: absolute;
+        top:385px;
+    }
+    .paragraph-1{
+        width:600px;
+        position:absolute;
+        top:420px;
+    }
+    .spoiler{
+        width:600px;
+        position: absolute;
+        top:520px;
+    }
+    .header-1 {
+        position: absolute;
+        top:570px;
+    }
+    .paragraph-2{
+        width:600px;
+        top:610px;
+    }
+    .header-2{
+        top:1100px;
+    }
+    .paragraph-3{
+        width:600px;
+        top:1170px;
+    }
+    .image{
+        z-index: 0;
+    }
+    .header-3{
+        z-index: 1;
+        top:1750px;
+    }
+    .conclusion{
+        width:600px;
+        top:1800px;
+    }
+    #footer {
+        width: 600px;
+        top: 1970px;
+    }}
